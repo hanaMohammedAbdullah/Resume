@@ -1,0 +1,55 @@
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore build output
+build/
+dist/
+
+# Ignore dependencies
+node_modules/
+package-lock.json
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore configuration files with sensitive information
+config.js
+.env
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package files
+*.tar.gz
+*.zip
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore documentation files
+*.pdf
+*.docx
+
+# Ignore image files
+*.jpg
+*.png
+*.gif
+
+# Ignore video files
+*.mp4
+*.avi
+
+# Ignore audio files
+*.mp3
+*.wav
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
