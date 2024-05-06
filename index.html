@@ -5,8 +5,20 @@
     <title>CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./output.css" rel="stylesheet" />
+    <style>
+    /* Define a print-specific CSS style */
+    @media print {
+         main {
+           background: black !important; /* Set background color to black */
+            background-color: black !important; /* Set background color to black */
+            color: white !important; /* Set text color to white */
+          
+        }
+    }
+    </style>
+
   </head>
-  <body class="p-0 m-0 w-screen h-screen" id="contentToConvert">
+  <body  class="p-0 m-0 w-screen h-screen bg-black text-white" id="contentToConvert">
     <main class="p-0 m-0 w-screen h-screen">
       <div class="mx-auto text-center">
         <h2 class="text-center text-2xl">Hana Muhammed</h2>
@@ -56,13 +68,13 @@
         <a href="tel:+9647503073718">Erbil,Iraq</a>
       </div>
       <hr
-        class="my-2 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
+        class="my-1 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
       />
       <p class="mb-1 px-5 text-sm "> I bring a calm and focused mindset to my role as a QA engineer and full-stack developer, always ensuring that the products I work on are of the highest quality. I'm passionate about learning and growing in my field, constantly seeking out new opportunities to expand my skills and contribute fresh ideas to projects. Collaboration is key for me.I thrive in environments where teamwork is encouraged, and I'm always ready to share my expertise to help the team succeed. My goal is simple: to make sure that every project I'm part of reaches its full potential.
       </p>
       
       <!-- skill -->
-      <div class="pl-5">
+      <div class="pl-2">
         <h3 class="text-cyan-800 text-xl">Skill</h3>
         <div class="container">
           <un class="text-sm">
@@ -79,10 +91,10 @@
       </div>
 
       <hr
-        class="my-2 mx-auto w-[95%]  border border-t-3 border-x-0 border-b-0 border-cyan-950"
+        class="my-1 mx-auto w-[95%]  border border-t-3 border-x-0 border-b-0 border-cyan-950"
       />
       <!-- experince -->
-      <div class="pl-5">
+      <div class="pl-2">
         <h3 class="text-cyan-800 text-xl">Experience</h3>
 
         <div class="experience-section">
@@ -117,36 +129,37 @@
       </div>
 
       <hr
-        class="my-2 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
+        class="my-1 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
       />
 
       <!-- edication -->
 
-      <div class="pl-5">
+      <div class="pl-2">
         <h3 class="text-cyan-800 text-xl">Education</h3>
         <div class="education-section">
           <h3 class="job-title text-cyan-700">
             Bachelor of Software Engineer | 2019 - 2023
           </h3>
-          <un>
+          <un class="text-sm">
             <li>Graduated as the 5th ranked student in the department.University of Salahaddin Engineer</li>
           </un>
           <h3 class="job-title text-cyan-700">
 
           Full-Stack Bootcamp | 2024 - 2024 (6 months )
         </h3>
-        <un>
-          <li>Graduated Re:coded </li>
+        <un class="text-sm">
+          <li>My experience Team leader to deliver a Movie project </li>
+          <li>Working with Nextjs , Nodejs , Expressjs</li>
         </un>
         </div>
       </div>
 
       <hr
-        class="my-2 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
+        class="my-1 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
       />
 
       <!-- project -->
-      <div class="pl-5">
+      <div class="pl-2">
         <h3 class="text-cyan-800 text-xl">Projects</h3>
         <div class="project-section">
           <h3 class="job-title text-cyan-700"><a href="https://github.com/hanaMohammedAbdullah/Amazon-nextjs">Amazone clone</a>  | 2022</h3>
@@ -166,19 +179,19 @@
               Developed a web app to improve restaurant sales using React.js and
               laravel.
             </li>
-            <li>
+            <!-- <li>
               Designed the system architecture, focusing on user experience and
               efficiency.Built a user-friendly QR menu interface for seamless customer
               ordering.
-            </li>
+            </li> -->
           </un>
         </div>
         </div>
         <hr
-          class="my-2 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
+          class="my-1 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
         />
         <!-- mentor ship -->
-        <div class="pl-5">
+        <div class="pl-2">
           <h3 class="text-cyan-800 text-xl">Mentorship</h3>
           <div class="mentorship-section">
             <h3 class="job-title text-cyan-700">Mentor | 2022</h3>
@@ -194,11 +207,36 @@
             </un>
           </div>
           </div>
+          <hr
+          class="my-1 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
+        />
+  
+          <!-- Certificate --> 
+          <div class="pl-2">
+            <h3 class="text-cyan-800 text-xl">Certificate</h3>
+            <div class="mentorship-section">
+              <h3 class="job-title text-cyan-700">The Complete 2024 Software Testing Bootcamp
+              </h3>
+              <un class="text-sm">
+                <li>
+                  Learn Manual Testing, Jira, SQL, Agile, Scrum, API Testing, and
+                  Selenium WebDriver.
+                </li>
+              </un>
+              <h3 class="job-title text-cyan-700">Front-End Development Bootcamp | 2022
+              </h3>
+              <un class="text-sm">
+                <li>
+                  Wecode Bootcamp from Rounga Foundation , it was consist of 116 hours of training. (JavaScript , React.js  , Bootstrap 5 , Jestjs)
+                </li>
+              </un>
+            </div>
+            </div>
           <!-- language -->
           <hr
-            class="my-2 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
+            class="my-1 mx-auto w-[95%] h-2 border border-t-3 border-x-0 border-b-0 border-cyan-950"
           />
-          <div class="pl-5">
+          <div class="pl-2">
             <h3 class="text-cyan-800 text-xl">Language</h3>
             <div class="language-section flex justify-between text-sm" >
               <un class="">
